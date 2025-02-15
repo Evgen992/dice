@@ -11,8 +11,16 @@ number = gets.to_i
  
 sleep 1 
 puts "_____________________"
-
+count = 0
+arr = []
 number.times do 
   show_rolling 
-  puts rand(1..5)
+  num = rand(1..6)
+  arr << num
+  puts num
+  
 end
+arr.each do |i|
+  count += i
+end
+puts count
