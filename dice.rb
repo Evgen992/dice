@@ -23,4 +23,4 @@ end
 arr.each do |i|
   count += i
 end
-puts count
+puts count # подсчитали сумму на цифрах кубиков
