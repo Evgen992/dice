@@ -16,11 +16,10 @@ arr = []
 number.times do 
   show_rolling 
   num = rand(1..6)
-  arr << num
+  
   puts num
+  count += num
   
 end
-arr.each do |i|
-  count += i
-end
+
 puts count # подсчитали сумму на цифрах кубиков
